@@ -29,3 +29,17 @@
 .link_lista_menu{
     color: white;
 }
+
+
+.grid{
+    grid-template-columns: repeat(8,1fr);
+grid-template-rows: repeat(9,1fr);
+max-height: 99vh;
+display: grid;
+}
+
+.banner_principal {
+    grid-row: 1;
+    grid-column: 1/9;
+    text-align: center;
+}
